@@ -4,11 +4,11 @@ const projectsCtrl = require('../controllers/projects');
 
 router.get('/', projectsCtrl.index);
 
+router.get('/home', projectsCtrl.homeView);
 
+router.get('/about', projectsCtrl.show);
 
-
-
-
+router.get('/contact', projectsCtrl.contact);
 
 
 
