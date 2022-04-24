@@ -6,14 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <title>Header</title>
 </head>
 <body>
-    <nav class ="nav-bar">
-        <a href="/projects"<%- title === 'All Projects' ? 'class="active"' : '' %>>Projects</a>
-        <a href="/"<%- title === 'Home' ? 'class="active"' : '' %>>Home</a>
-        <a href="/projects/about">About</a>
-        <a href="/projects/contact">Contact Me</a>
-    </nav>
+    <nav class="nav">
+        <div class="nav-wrapper #ef9a9a red lighten-3">
+          <a href="#" class="logo">MG</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="/projects"<%- title === 'All Projects' ? 'class="active"' : '' %>>Projects</a></li>
+            <li><a href="/"<%- title === 'Home' ? 'class="active"' : '' %>>Home</a></li>
+            <li><a href="/projects/about">About</a></li>
+            <li><a href="/projects/contact">Contact Me</a></li>
+          </ul>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        </div>
+      </nav>
 </body>
 </html>

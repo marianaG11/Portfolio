@@ -8,7 +8,7 @@ body {
 
 }
 .nav-bar {
-    background-color: bisque;
+    /* display: flex;  */
     text-align: center;
     justify-content: center;
     height: 60px;
@@ -27,9 +27,6 @@ a {
 
 .project-title{
   font-weight: bold;
-  /* align-items: center;
-  justify-content: center; */
-  /* align-content: center; */
   text-align: center;
   
 }
@@ -48,3 +45,80 @@ img {
   height: 500px;
   width: 300px;
 }
+
+.logo {
+  margin-left: 20px;
+  font-size: x-large;
+}
+
+.about{
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: larger;
+
+}
+
+.card-action{
+  text-align: center;
+}
+
+h1 {
+  font-weight:bold;
+  font-size: larger;
+}
+
+.all-projects {
+  text-align: center;
+  font-size: x-large;
+}
+
+.contact {
+  margin-left: 20px;
+}
+
+.burger {
+  display: none;
+}
+
+.burger div{
+  margin: 5px;
+  width: 20px;
+  height: 3px;
+  background-color: black;
+}
+
+@media (max-width: 750px) {
+  body{
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: auto;
+  }
+  .nav{
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    text-align: center;
+  }
+}
+
+
+
+/* @media screen and (max-width: 750px){
+  body{
+    align-items: center;
+    justify-content: center;
+  }
+  
+  a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right:0px;
+    height: 92vh;
+    top:8vh;
+  }
+} */
