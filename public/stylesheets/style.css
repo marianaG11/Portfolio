@@ -8,7 +8,6 @@ body {
 
 }
 .nav-bar {
-    /* display: flex;  */
     text-align: center;
     justify-content: center;
     height: 60px;
@@ -79,7 +78,7 @@ h1 {
 .contact {
   margin-left: 20px;
 }
-
+/* 
 .burger {
   display: none;
 }
@@ -89,7 +88,7 @@ h1 {
   width: 20px;
   height: 3px;
   background-color: black;
-}
+} */
 
 @media (max-width: 750px) {
   body{
@@ -105,25 +104,6 @@ h1 {
     text-align: center;
   }
 }
-
-
-
-/* @media screen and (max-width: 750px){
-  body{
-    align-items: center;
-    justify-content: center;
-  }
-  
-  a{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    right:0px;
-    height: 92vh;
-    top:8vh;
-  }
-} */
 
 .resume{
  margin-left: 0;
